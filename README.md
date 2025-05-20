@@ -83,14 +83,12 @@ Automate actions like turning off high-consumption devices during peak hours.
 Reduced energy waste = Lower carbon emissions
 
 
-✅ Observations:
-All models perform exceptionally well (R² > 0.99), indicating excellent predictive power.
+✅ Interpretation:
+Random Forest is the best overall (lowest RMSE & MAE, highest R²).
 
-Random Forest outperforms others slightly in RMSE and MAE.
+XGBoost is close behind.
 
-Linear regression is close behind, which means the relationship between features and target is largely linear.
-
-XGBoost also performs very well, suggesting it captures complex patterns effectively.
+Linear Regression performs well but less precise than ensemble methods.
 
 
 
