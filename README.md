@@ -27,11 +27,10 @@ This project aims to predict **Global Active Power Consumption** using historica
 ---
 
 ## 📊 Visualizations
-
 - **Actual vs Predicted Scatter Plot**: Shows how close predicted values are to true values.
 - **Time Series Comparison**: Plots of actual vs predicted power consumption.
+- **Residual Analysis**: Distribution of residuals for each model.
 - **Correlation Heatmap**: Relationships between features and target variable.
-
 ---
 ## Correlation Heatmap
 High correlation between Global_active_power and:
